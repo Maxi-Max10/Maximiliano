@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Maximiliano</title>
+</head>
+
+<body>
+    <!-- ID Particles.js -->
+    <div id="particles-js"></div>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">
+                    
+                        <span style="--l:'<';"> < </span>
+                        <span style="--l:'M';"> M </span>
+                        <span style="--l:'A';"> A </span>
+                        <span style="--l:'/';"> / </span>
+                        <span style="--l:'>';"> > </span>
+                        
+                    
+                </a>
+            </div>
+           
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hola,<br>Soy <span class="home__title-color">Maximiliano </span><br>Programador Web</h1>
+
+                <a download href="https://wa.me/542613353956" target="_blank">
+                    <button class="download-cv">Contactame</button>
+                </a>
+
+            </div>
+
+            <div class="home__social">
+                
+                <a href="https://github.com/Maxi-Max10" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://wa.me/542613353956" class="home__social-icon" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                
+
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="60" y="70" href="assets/img/animation_500_kyn5lhss.gif" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        
+
+        <!--===== CONTACT =====
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact__container bd-grid">
+                <form action="https://mailthis.to/you@mail.com" method="POST" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea name="mensaje" id="mensaje" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+        -->
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Consulta</h2>
+            <div class="contact__container bd-grid">
+                <form class="contact__form" id="form">
+                    <input type="text" placeholder="Nombre y Apellido" class="contact__input" name="nombre" required>
+                    <input type="email" placeholder="Email" class="contact__input" name="email" required>
+                    
+                    <textarea type="text"  placeholder="Mensaje" name="mensaje" cols="0" rows="10" class="contact__input" name="mensaje" required></textarea>
+                    <input type="submit" id="button" value="Enviar" class="contact__button button">
+                </form>
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                <script type="text/javascript">emailjs.init('user_PBlMIDWiSWqibhCiwQdK8') </script>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Maximiliano</p>
+        <div class="footer__social">
+            
+            <a href="https://www.instagram.com/maximiliano.alderete1/" class="footer__icon"  target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href=" https://wa.me/542613353956" class="footer__icon" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+           
+        </div>
+        <p class="footer__copy">&#169; 2022. All rigths reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+
+
+    <!-- JS Particles.js -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+
+    <!-- JS Form -->
+    <script>
+        const btn = document.getElementById('button');
+
+            document.getElementById('form')
+                .addEventListener('submit', function (event) {
+                    event.preventDefault();
+
+                    btn.value = 'Enviando...';
+
+                    const serviceID = 'default_service';
+                    const templateID = 'template_girezea';
+
+                    emailjs.sendForm(serviceID, templateID, this)
+                        .then(() => {
+                            btn.value = 'Enviar';
+                            alert('Mensaje enviado correctamente');
+                        }, (err) => {
+                            btn.value = 'Enviar';
+                            alert(JSON.stringify(err));
+                        });
+                });
+    </script>
+
+
+
+</body>
+
+</html>
